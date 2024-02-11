@@ -28,7 +28,12 @@
 Esta sección proporciona una visión general y una introducción a los servicios de AWS cubiertos en esta guía.
 
 ## Primeros Pasos con la Dirección IPv4
-Comprender los conceptos básicos de la dirección IPv4 para comprender mejor las configuraciones de VPC.
+
+Dirección IP: Una dirección IP es una dirección única que identifica a un dispositivo en Internet o en una red local. IP significa “protocolo de Internet”.
+
+Ejemplo: Digamos que tenemos un servidor web en Internet y deseas comunicarse con ese servidor web. Ahora es problable que el servidor web tenga algun tipo de interfaz de red y conectada a esa insterfaz de red habrá una dirección IP (esto será una dirección IP pública). Las direcciones IP son las direcciones que las computadoras utilizan para comunicarse entre sí. Entonces tienes tu computadora en casa y tienes un navegador web abierto, y escribes http://example.com. Recordemos que las computadoras se comunican mediante direcciones IP, entonces aquí es donde entra en juego un sitema de nombre de domino o un servidor DNS.
+
+![Texto Alternativo](https://upanama.educativa.org/archivos/repositorio/6000/6126/html/Domain_i.jpg)
 
 ## Descripción General de Amazon VPC
 Explorar los conceptos clave y las características de Amazon Virtual Private Cloud.
