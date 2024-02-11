@@ -47,11 +47,9 @@ Cada una de estas partes entre los puntos es en realidad un octeto binario. Pero
 
 Un octeto significa que tiene ocho valores, y esos valores pueden ser un 1 o un 0 (binario). 
 
-
-
 ![Texto Alternativo](https://ccnadesdecero.es/wp-content/uploads/2018/03/ID-de-red-ID-de-hosts.png)
 
-ID de red y ID de host: Como podemos ver en la imagen siguiente los primeros 3 octetos representan el ID de red (Network ID), este valor será el mismo para todas las compuatadoras en esta red. El ID del host será único para cada ordenador de esta red. Cada dirección IP tendrá una red y un ID de host pero la forma de configurarlos varía. 
+ID de red y ID de host: Como podemos ver en la imagen anterior los primeros 3 octetos representan el ID de red (Network ID), este valor será el mismo para todas las compuatadoras en esta red. El ID del host será único para cada ordenador de esta red. Cada dirección IP tendrá una red y un ID de host pero la forma de configurarlos varía. 
 
 
 
