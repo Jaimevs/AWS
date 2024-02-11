@@ -1,1 +1,88 @@
 # AWS
+
+ Guía de Introducción y Configuración de VPC en AWS
+
+1. [Introducción](#introducción)
+2. [Primeros Pasos con la Dirección IPv4](#primeros-pasos-con-la-dirección-ipv4)
+3. [Descripción General de Amazon VPC](#descripción-general-de-amazon-vpc)
+4. [Definición de Bloques CIDR para VPC](#definición-de-bloques-cidr-para-vpc)
+5. [Asistente de VPC](#asistente-de-vpc)
+6. [Crear una VPC Personalizada con Subredes](#crear-una-vpc-personalizada-con-subredes)
+7. [Lanzar Instancias y Probar la VPC](#lanzar-instancias-y-probar-la-vpc)
+8. [Grupos de Seguridad y Listas de Control de Acceso de Red (NACL)](#grupos-de-seguridad-y-listas-de-control-de-acceso-de-red-nacl)
+9. [Configurar Grupos de Seguridad y NACL](#configurar-grupos-de-seguridad-y-nacl)
+10. [Interconexión de VPC en Amazon](#interconexión-de-vpc-en-amazon)
+11. [Configurar Interconexión de VPC](#configurar-interconexión-de-vpc)
+12. [Puntos de Enlace de VPC](#puntos-de-enlace-de-vpc)
+13. [Crear un Punto de Enlace de VPC](#crear-un-punto-de-enlace-de-vpc)
+14. [AWS Client VPN](#aws-client-vpn)
+15. [VPN de Sitio a Sitio en AWS](#vpn-de-sitio-a-sitio-en-aws)
+16. [Hub de Nube VPN de AWS](#hub-de-nube-vpn-de-aws)
+17. [AWS Direct Connect (DX)](#aws-direct-connect-dx)
+18. [Pasarela de AWS Direct Connect](#pasarela-de-aws-direct-connect)
+19. [AWS Transit Gateway](#aws-transit-gateway)
+20. [Uso de IPv6 en una VPC](#uso-de-ipv6-en-una-vpc)
+21. [Crear Registros de Flujo de VPC](#crear-registros-de-flujo-de-vpc)
+
+## Introducción
+Esta sección proporciona una visión general y una introducción a los servicios de AWS cubiertos en esta guía.
+
+## Primeros Pasos con la Dirección IPv4
+Comprender los conceptos básicos de la dirección IPv4 para comprender mejor las configuraciones de VPC.
+
+## Descripción General de Amazon VPC
+Explorar los conceptos clave y las características de Amazon Virtual Private Cloud.
+
+## Definición de Bloques CIDR para VPC
+Aprender a definir y gestionar bloques CIDR dentro de tu VPC.
+
+## Asistente de VPC
+Descubrir la herramienta Asistente de VPC para una configuración simplificada de VPC.
+
+## Crear una VPC Personalizada con Subredes
+Guía para crear una VPC personalizada con subredes especificadas.
+
+## Lanzar Instancias y Probar la VPC
+Instrucciones paso a paso para lanzar instancias y probar la configuración de tu VPC.
+
+## Grupos de Seguridad y Listas de Control de Acceso de Red (NACL)
+Comprender e implementar grupos de seguridad y listas de control de acceso de red para una seguridad mejorada.
+
+## Configurar Grupos de Seguridad y NACL
+Pasos detallados para la configuración de grupos de seguridad y listas de control de acceso de red.
+
+## Interconexión de VPC en Amazon
+Conocer la interconexión de VPC y sus casos de uso.
+
+## Configurar Interconexión de VPC
+Guía sobre cómo configurar las conexiones de interconexión de VPC.
+
+## Puntos de Enlace de VPC
+Comprender y configurar puntos de enlace de VPC.
+
+## Crear un Punto de Enlace de VPC
+Instrucciones paso a paso para crear un punto de enlace de VPC.
+
+## AWS Client VPN
+Configuración de AWS Client VPN para una comunicación segura.
+
+## VPN de Sitio a Sitio en AWS
+Configurar conexiones de VPN de sitio a sitio en AWS.
+
+## Hub de Nube VPN de AWS
+Aprender sobre la arquitectura y la implementación del Hub de Nube VPN de AWS.
+
+## AWS Direct Connect (DX)
+Comprensión y configuración de AWS Direct Connect.
+
+## Pasarela de AWS Direct Connect
+Explorar las capacidades y la configuración de la Pasarela de AWS Direct Connect.
+
+## AWS Transit Gateway
+Aprender sobre AWS Transit Gateway y su uso en arquitecturas de red.
+
+## Uso de IPv6 en una VPC
+Guía sobre cómo incorporar IPv6 dentro de tu VPC.
+
+## Crear Registros de Flujo de VPC
+Configuración de Registros de Flujo de VPC para capturar y analizar el tráfico de red.
