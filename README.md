@@ -51,7 +51,7 @@ Un octeto significa que tiene ocho valores, y esos valores pueden ser un 1 o un 
 
 ID de red y ID de host: Como podemos ver en la imagen anterior los primeros 3 octetos representan el ID de red (Network ID), este valor será el mismo para todas las compuatadoras en esta red. El ID del host será único para cada ordenador de esta red. Cada dirección IP tendrá una red y un ID de host pero la forma de configurarlos varía. 
 
-![Texto Alternativo](imagenes/2024-02-11.png)
+
 
 
 
