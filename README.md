@@ -35,6 +35,16 @@ Ejemplo: Digamos que tenemos un servidor web en Internet y deseas comunicarse co
 
 ![Texto Alternativo](https://upanama.educativa.org/archivos/repositorio/6000/6126/html/Domain_i.jpg)
 
+Su computadora se comunica´ra con un servidor DNS, y le preguntará al servidor DNS cual es la dirección IP. Una vez que la computadora tenga el resultado, podra comunicarse al servidor web usando la dirección IP.
+
+Direccion IP:
+
+![Texto Alternativo](https://www.freecodecamp.org/espanol/news/content/images/size/w1000/2022/02/ipv4-address.png)
+
+Cada una de estas partes entre los puntos es en realidad un octeto binario. Pero que es un octeto binario: 
+
+![Texto Alternativo](https://2.bp.blogspot.com/_3Srheb0ASzs/SU33bcUBaVI/AAAAAAAAABM/DY9Wh8bUTUE/w1200-h630-p-k-no-nu/Tabla01.png)
+
 ## Descripción General de Amazon VPC
 Explorar los conceptos clave y las características de Amazon Virtual Private Cloud.
 
