@@ -87,6 +87,24 @@ No ves el enrutador VPC, todo lo que debe hacer es ver las tablas de rutas y ell
 
 Puedes crear varias VPC dentro de una región, tienes un límite predeterminado de cinco, pero puedes solicitar un aumento en esa cantidad. Cada VPC tiene un bloque de direcciones IP. Ese es el bloque general de direcciones a partir del cual luego creas las direcciones que asignas a tus subredes. Es una especie de bloque maestro de direcciones. Cada VPC tiene una diferente de estas. Entonces, en este caso, tenemos dos VPC, y tienen diferentes bloque de direcciones IP. 
 
+| Componente                     | Descripción                                                                           |
+|-------------------------------|---------------------------------------------------------------------------------------|
+| Virtual Private Cloud (VPC)    | Una red virtual aislada en la nube de AWS que puedes personalizar según tus necesidades.|
+| Subnet                        | Una división lógica de una VPC que define un rango específico de direcciones IP.       |
+| Internet Gateway              | Un componente que permite la conectividad de la VPC con Internet.                       |
+| Egress-only Internet Gateway  | Proporciona conectividad de salida para tráfico IPv6 desde instancias en una VPC.      |
+| Router                        | Gestiona el tráfico entre subredes dentro de una VPC y entre la VPC y redes externas.   |
+| Peering Connection            | Una conexión entre dos VPC que permite el tráfico directo entre ellas.                  |
+| VPC Endpoints                 | Puntos de conexión que permiten el acceso a servicios AWS desde una VPC sin pasar por Internet.|
+| NAT Instance                  | Una instancia configurada como puerta de enlace para permitir acceso a Internet a instancias en subredes privadas.|
+| NAT Gateway                   | Un servicio gestionado que proporciona conectividad de salida a instancias en subredes privadas.|
+| Virtual Private Gateway       | Permite la conexión entre una VPC y una red local mediante una VPN.                      |
+| Customer Gateway              | Representa el dispositivo de red en el extremo del cliente de una conexión VPN.          |
+| AWS Direct Connect            | Un servicio que establece una conexión dedicada entre la infraestructura local y AWS.    |
+| Security Group                | Un conjunto de reglas de seguridad que controla el tráfico de red hacia instancias.      |
+| Network ACL                   | Lista de control de acceso que controla el tráfico de red a nivel de subred en una VPC.  |
+
+
 
 ## Definición de Bloques CIDR para VPC
 Aprender a definir y gestionar bloques CIDR dentro de tu VPC.
