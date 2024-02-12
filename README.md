@@ -106,6 +106,7 @@ Puedes crear varias VPC dentro de una región, tienes un límite predeterminado 
 
 
 
+
 ## Definición de Bloques CIDR para VPC
 Aprender a definir y gestionar bloques CIDR dentro de tu VPC.
 
