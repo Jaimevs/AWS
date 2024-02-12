@@ -49,10 +49,15 @@ Un octeto significa que tiene ocho valores, y esos valores pueden ser un 1 o un 
 
 ![Texto Alternativo](https://ccnadesdecero.es/wp-content/uploads/2018/03/ID-de-red-ID-de-hosts.png)
 
-ID de red y ID de host: Como podemos ver en la imagen anterior los primeros 3 octetos representan el ID de red (Network ID), este valor será el mismo para todas las compuatadoras en esta red. El ID del host será único para cada ordenador de esta red. Cada dirección IP tendrá una red y un ID de host pero la forma de configurarlos varía. 
+ID de red y ID de host: Como podemos ver en la imagen anterior los primeros 3 octetos representan el ID de red (Network ID), este valor será el mismo para todas las compuatadoras en esta red. El ID del host será único para cada ordenador de esta red. Cada dirección IP tendrá una red y un ID de host pero la forma de configurarlos varía.
+
+Mascara de subred: Es un número binario que se utiliza junto con una dirección IP para dividir una red IP en subredes más pequeñas. Su función principal es definir qué parte de la dirección IP pertenece a la red y qué parte se reserva para identificar hosts específicos dentro de esa red.
 
 ![Texto Alternativo](imagenes/imagen1.png)
 
+En este caso tenemos 255 (en binarios sería 11111111), basicamente tenemos un bit que es 1 que representa el ID de la red, entonces aquí tenemos 8 bits que son 1, 8 bits que son 1 y 8 bits que son 1, por lo que esos primeros octetos libres represan el ID de la red. Entonces el ultimo octeto en el cuadro naranja aquí será el ID del host, por eso es 0. Entonces, cada bit de la máscara de subred que es 0, significa que ahí es donde tenemos valores a los que se les puede asignar un host. Y cada bit que es 1, esos son valores que serán exactamente los mismo para todas las computadoras en la red. 
+
+Por lo tanto, una máscara de subred es una forma sencilla de ver qué bit es la red y qué parte es el ID del host.
 
 
 
