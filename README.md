@@ -67,7 +67,7 @@ En una red es posible que tengamos varios ordenadores, y podemos ver en la image
 
 Clases con Direcciones IP:
 
-![Texto Alternativo](https://static.platzi.com/media/user_upload/Captura%20de%20Pantalla%202022-01-26%20a%20la%28s%29%207.06.56%20p.m.-207132c7-4201-4ed4-a6b7-8344a3f91d2f.jpg)
+![Texto Alternativo](imagenes/imagen3.jpg)
 
 
 
