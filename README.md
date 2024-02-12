@@ -57,7 +57,11 @@ Mascara de subred: Es un número binario que se utiliza junto con una dirección
 
 En este caso tenemos 255 (en binarios sería 11111111), basicamente tenemos un bit que es 1 que representa el ID de la red, entonces aquí tenemos 8 bits que son 1, 8 bits que son 1 y 8 bits que son 1, por lo que esos primeros octetos libres represan el ID de la red. Entonces el ultimo octeto en el cuadro naranja aquí será el ID del host, por eso es 0. Entonces, cada bit de la máscara de subred que es 0, significa que ahí es donde tenemos valores a los que se les puede asignar un host. Y cada bit que es 1, esos son valores que serán exactamente los mismo para todas las computadoras en la red. 
 
-Por lo tanto, una máscara de subred es una forma sencilla de ver qué bit es la red y qué parte es el ID del host.
+Por lo tanto, una máscara de subred es una forma sencilla de ver qué bit es la red y qué parte es el ID del host. 
+
+Ejemplo: 
+
+![Texto Alternativo](imagenes/imagen2.jpg)
 
 
 
