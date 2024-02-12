@@ -83,7 +83,7 @@ El enrutador VPC se encarga de todo el enrutamiento de las conexiones que salen 
 
 No ves el enrutador VPC, todo lo que debe hacer es ver las tablas de rutas y ellas configurarán el enrutador VPC por usted. Por lo tanto, debemos especificar los destinos y los objetos para ciertas redes y así es como sabe dónde enviar esos intentos de conexión. Si queremos acceder a Internt, también necesitamos una puerta de enlace de Internet, la puerta de Internet está conectada a su VPC, solo tiene una por VPC. La puerta de enlace de Internet se utiliza para enviar datos a Internet. Eso es tráfico de salida, y desde Internet, ese es el tráfico de Ingrees. Y configuramos nuestras tablas de rutas con una ruta al IP de la puerta de enlace de Internet, que le indica que envíe todo el tráfico que no se ajusta a una de las redes en la tabla de rutas anterior a la puerta de enlace de Internet. 
 
-![Texto Alternativo](imagenes/imagen6.jpg)
+![Texto Alternativo](imagenes/imagen5.jpg)
 
 Puedes crear varias VPC dentro de una región, tienes un límite predeterminado de cinco, pero puedes solicitar un aumento en esa cantidad. Cada VPC tiene un bloque de direcciones IP. Ese es el bloque general de direcciones a partir del cual luego creas las direcciones que asignas a tus subredes. Es una especie de bloque maestro de direcciones. Cada VPC tiene una diferente de estas. Entonces, en este caso, tenemos dos VPC, y tienen diferentes bloque de direcciones IP. 
 
