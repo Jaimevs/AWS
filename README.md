@@ -69,12 +69,17 @@ Clases con Direcciones IP:
 
 ![Texto Alternativo](imagenes/imagen3.jpg)
 
-
-
-
-
 ## Descripción General de Amazon VPC
-Explorar los conceptos clave y las características de Amazon Virtual Private Cloud.
+
+Nube privada virtual o VPC de Amazon: Una VPC es esencialmente una porción lógicamente aislada de la nube de AWS que luego puede usar para implementar sus recursos dentro de ella, y eso es diferente al espacio público fuera de la VPC, donde se configura servicios como Amazon s3. Este es un espacio privado y usted tiene control total sobre cómo configurar su VPC. Dentro de una región tenemos zonas de disponibilidad y puede usarlas dentro de su VPC creando subredes y asignándolas a una zona de disponibilidad.
+
+Una subred siempre se asigna a una zona de disponibilidad y no puede abarcar varios AZs. Pero puede tener varias subredes en la misma zona de disponiblidad y luego implementar nuestro recursos, como dos instancias sencillas en nuestras subredes. 
+
+Exsite algo llamado enrutados VPC, realmente no ves el enrutador VPC, pero existe e interactuamos con él configurando tablas de rutas. 
+
+El enrutador VPC se encarga de todo el enrutamiento de las conexiones que salen de una subred. Si envías datos desde una subred, tiene que ir a otro lugar, tal vez a otra subred, otal vez a Internet o a alguna otra red. Entonces el enrutador se encarga de asegurarse de que la conexión de datos se envíe al lugar correcto. 
+
+No ves el enrutador VPC, todo lo que debe hacer es ver las tablas de rutas y ellas configurarán el enrutador VPC por usted. Por lo tanto, debemos especificar los destinos y los objetos para ciertas redes y así es como sabe dónde enviar esos intentos de conexión. Si queremos acceder a Internt, también necesitamos una puerta de enlace de Internet, la puerta de Internet está conectada a su VPC, solo tiene una por VPC. La puerta de enlace de Internet se utiliza para enviar datos a Internet. Eso es tráfico de salida, y desde Internet, ese es el tráfico de Ingrees. Y configuramos nuestras tablas de rutas con una ruta al IP de la puerta de enlace de Internet, que le indica que envíe todo el tráfico que no se ajusta a una de las redes en la tabla de rutas anterior a la puerta de enlace de Internet. 
 
 ## Definición de Bloques CIDR para VPC
 Aprender a definir y gestionar bloques CIDR dentro de tu VPC.
