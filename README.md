@@ -59,9 +59,17 @@ En este caso tenemos 255 (en binarios sería 11111111), basicamente tenemos un b
 
 Por lo tanto, una máscara de subred es una forma sencilla de ver qué bit es la red y qué parte es el ID del host. 
 
-Ejemplo: 
+Ejemplo: Tenemos nuetra red 192.168.0.0 con una mascara de subred. Ahora los primeros 3 octetos de la mascara representan 24 bits, una mascara de subred de 24 bits porque tenemos ocho unos en esos primeros tres octetos (255 en binario es 11111111). Una forma de representar la máscara de subred seria de esta forma 192.168.0.0/24, la IP y los 24 bits que esto es la suma de los 3 octetos. 
 
 ![Texto Alternativo](imagenes/imagen2.jpg)
+
+En una red es posible que tengamos varios ordenadores, y podemos ver en la imagen anterior que cada uno tiene diferentes ID de host, pero es la misma ID de red para todas. En este caso, los ID de host son 1,2,3,4,5 y 6 y el ID de red es 192.168.0
+
+Clases con Direcciones IP:
+
+![Texto Alternativo](https://static.platzi.com/media/user_upload/Captura%20de%20Pantalla%202022-01-26%20a%20la%28s%29%207.06.56%20p.m.-207132c7-4201-4ed4-a6b7-8344a3f91d2f.jpg)
+
+
 
 
 
